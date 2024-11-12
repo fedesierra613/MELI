@@ -16,27 +16,29 @@ Antes de ejecutar el proyecto, asegúrate de tener lo siguiente instalado:
 
 Primero, clona el repositorio en tu máquina local:
 
-```bash
+```
+
 git clone https://github.com/tu_usuario/tu_repositorio.git
 cd tu_repositorio
+
+```
+
+
 2. Crear y activar un entorno virtual
 Es recomendable crear un entorno virtual para aislar las dependencias del proyecto:
 
-bash
-Copy code
+
+```
 python -m venv venv
+```
+
 Luego, activa el entorno virtual:
 
-En Windows:
-
-bash
-Copy code
-venv\Scripts\activate
-En Mac/Linux:
-
-bash
-Copy code
+```
 source venv/bin/activate
+```
+
+
 3. Instalar las dependencias
 Instala las dependencias del proyecto desde el archivo requirements.txt:
 
