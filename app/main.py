@@ -8,6 +8,14 @@ app = FastAPI()
 class DNABody(BaseModel):
     dna: list[str]
 
+
+
+
+@app.get("/")
+def read_root():
+    return {"message": "Bienvenido a la API"}
+
+
 @app.post("/mutant/")
 async def check_mutant(dna_body: DNABody):
     dna_str = ",".join(dna_body.dna)
