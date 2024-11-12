@@ -108,12 +108,3 @@ Abrir la aplicación en tu navegador:
 heroku open
 ```
 
-
-
-### Explicación de los pasos del archivo `README.md`:
-- **Instalación de dependencias**: Explica cómo crear un entorno virtual, instalar dependencias y configurar Redis (si se utiliza).
-- **Ejecución del proyecto**: Indica cómo iniciar el servidor de la API con `uvicorn` y cómo ejecutar las pruebas con `pytest`.
-- **Despliegue en Heroku**: Describe los pasos para desplegar el proyecto en Heroku.
-- **Contribuciones**: Explica cómo los desarrolladores pueden contribuir al proyecto.
-
-Este archivo `README.md` proporciona instrucciones claras y fáciles de seguir para que cualquier persona pueda ejecutar el proyecto localmente y contribuir.
